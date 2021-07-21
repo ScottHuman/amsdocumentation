@@ -42,6 +42,7 @@ extensions = []
     #'sphinx_rtd_theme',
 #]
 
+extensions.append("furo")
 #extensions.append("guzzle_sphinx_theme")
 
 # Register the theme as an extension to generate a sitemap.xml
