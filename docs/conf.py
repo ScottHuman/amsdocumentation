@@ -6,7 +6,7 @@
 #import karma_sphinx_theme
 import pygments
 
-import bs4
+from bs4 import BeautifulSoup
 
 # Configuration file for the Sphinx documentation builder.
 #
