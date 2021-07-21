@@ -1,5 +1,5 @@
 #import guzzle_sphinx_theme
-import sphinx_rtd_theme
+#import sphinx_rtd_theme
 #import karma_sphinx_theme
 #import os
 
@@ -37,12 +37,12 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-#extensions = []
+extensions = []
 
 
-extensions = [
-    'sphinx_rtd_theme',
-]
+#extensions = [
+    #'sphinx_rtd_theme',
+#]
 #extensions = [
 #]
 
@@ -66,10 +66,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
 #html_theme = 'guzzle_sphinx_theme'
 #html_theme = "furo/theme"
-#html_theme = 'furo'
+html_theme = 'furo'
 #html_theme = 'karma_sphinx_theme'
 
 # Guzzle theme options (see theme.conf for more information)
@@ -81,7 +81,8 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
+html_theme_path = ['theme',]
 #html_theme_path = [furo.get_html_theme_path()]
 
 #html_theme_path = guzzle_sphinx_theme.html_theme_path()
