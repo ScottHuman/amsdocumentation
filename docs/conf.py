@@ -1,5 +1,6 @@
 #import guzzle_sphinx_theme
-import sphinx_rtd_theme
+#import sphinx_rtd_theme
+import furo
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -58,8 +59,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
 #html_theme = 'guzzle_sphinx_theme'
+html_theme = 'furo'
 
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
