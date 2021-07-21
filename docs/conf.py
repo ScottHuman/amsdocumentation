@@ -67,7 +67,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #html_theme = 'alabaster'
 #html_theme = 'sphinx_rtd_theme'
 #html_theme = 'guzzle_sphinx_theme'
-html_theme = "furo"
+html_theme = "furo/theme"
 
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
