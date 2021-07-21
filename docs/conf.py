@@ -1,6 +1,6 @@
 #import guzzle_sphinx_theme
 #import sphinx_rtd_theme
-from karma_sphinx_theme import karma_sphinx_theme
+import karma_sphinx_theme
 
 # Configuration file for the Sphinx documentation builder.
 #
