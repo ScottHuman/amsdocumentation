@@ -1,6 +1,7 @@
 #import guzzle_sphinx_theme
 #import sphinx_rtd_theme
-import karma_sphinx_theme
+#import karma_sphinx_theme
+import furo
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -63,7 +64,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #html_theme = 'sphinx_rtd_theme'
 #html_theme = 'guzzle_sphinx_theme'
 #html_theme = "furo/theme"
-html_theme = 'karma_sphinx_theme'
+html_theme = 'furo'
 
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
@@ -74,5 +75,7 @@ html_theme_options = {
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
+html_theme_path = [furo.get_html_theme_path()]
+
 #html_theme_path = guzzle_sphinx_theme.html_theme_path()
