@@ -1,3 +1,4 @@
+import guzzle_sphinx_theme
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -30,9 +31,10 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-#extensions = []
-# Register the theme as an extension to generate a sitemap.xml
+extensions = []
 extensions.append("guzzle_sphinx_theme")
+
+# Register the theme as an extension to generate a sitemap.xml
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
