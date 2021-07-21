@@ -1,10 +1,6 @@
 #import guzzle_sphinx_theme
 #import sphinx_rtd_theme
 
-import os
-import sys
-
-sys.path.insert(0, os.path.abspath('..'))
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -42,7 +38,6 @@ release = '1.0'
 
 
 extensions = [
-
 ]
 
 #extensions.append("furo")
@@ -67,7 +62,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #html_theme = 'alabaster'
 #html_theme = 'sphinx_rtd_theme'
 #html_theme = 'guzzle_sphinx_theme'
-html_theme = "furo/theme"
+#html_theme = "furo/theme"
+html_theme = 'karma_sphinx_theme'
 
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
