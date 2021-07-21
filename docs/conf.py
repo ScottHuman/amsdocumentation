@@ -37,9 +37,9 @@ extensions = []
 
 
 #extensions = [
-#    'furo'
+    'furo'
     #'sphinx_rtd_theme',
-#]
+]
 
 #extensions.append("furo")
 #extensions.append("guzzle_sphinx_theme")
