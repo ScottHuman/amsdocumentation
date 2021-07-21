@@ -1,7 +1,7 @@
 #import guzzle_sphinx_theme
 #import sphinx_rtd_theme
 
-from furo from theme import furo
+import furo
 
 # Configuration file for the Sphinx documentation builder.
 #
