@@ -10,7 +10,8 @@ Welcome to ams_documentation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   test
+   Testing/test
+   Testing/Second_test
 
 
 
