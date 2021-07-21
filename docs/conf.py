@@ -2,8 +2,9 @@
 #import sphinx_rtd_theme
 #import karma_sphinx_theme
 #import os
-import furo
+#import furo
 #import karma_sphinx_theme
+import pygments
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -37,8 +38,10 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = ['furo',]
 
+pygments_style = "sphinx"
+#pygments_dark_style = "monokai"
 
 #extensions = [
     #'sphinx_rtd_theme',
