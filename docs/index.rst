@@ -6,23 +6,19 @@
 Lithnet Access Manager
 =============================================
 
+Setup
+=====
 .. toctree::
-   :maxdepth: 2
-   :caption: Setup:
+   :maxdepth: 1
+   :caption: Setup
 
-   Setup/Setting-up-authentication-with-ADFS
-   Setup/Setting-up-authentication-with-Azure-AD
-   Setup/Setting-up-authentication-with-Okta
-   Setup/Setting-up-BitLocker-access
-   Setup/Setting-up-integrated-windows-authentication
-   Setup/Setting-up-JIT-access
-   Setup/Setting-up-Microsoft-LAPS
-   Setup/Setting-up-password-encryption-and-history
+   Setup/index
    
-
+Testing
+=======
 .. toctree::
    :maxdepth: 2
-   :caption: Testing:
+   :caption: Testing
 
    Test/test
    Test/Web-Hosting-Page

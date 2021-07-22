@@ -14,6 +14,7 @@ The following guide will assist you in configuring your application to use Activ
 8. Optionally, configure multi-factor authentication for the trust, and follow the remaining pages through to completion
 9. Edit the claim rules for the application. Add a new issuance transform rule to `Send LDAP attributes as claims`
 10. Set 'Issue UPN' as the claim rule name. Select `Active Directory` as the attribute store, `User-Principal-Name` as the `LDAP Attribute` and `UPN` as the outgoing claim type
+asdsa
 
 ## Part 2: Configure Lithnet Access Manager
 ![](images/ui-page-authentication-wsfed.png)
