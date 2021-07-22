@@ -6,22 +6,21 @@
 Lithnet Access Manager
 =============================================
 
-Setup
-=====
-.. toctree::
-   :maxdepth: 1
-   :caption: Setup
 
-   Setup/index
-   
-Testing
-=======
+Planning
+========
 .. toctree::
    :maxdepth: 2
-   :caption: Testing
 
-   Test/test
-   Test/Web-Hosting-Page
+   planning/index
+
+Getting Started
+===============
+.. toctree::
+   :maxdepth: 2
+
+   getting_started/index
+
 
 
 
