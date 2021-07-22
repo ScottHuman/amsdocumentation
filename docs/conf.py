@@ -27,6 +27,7 @@
 project = ''
 copyright = '2021, Lithnet'
 author = 'Lithnet Support'
+html_title = "Lithnet Access Manager"
 
 # The full version, including alpha/beta/rc tags
 release = ''
