@@ -6,7 +6,6 @@
 Lithnet Access Manager
 =============================================
 
-
 Planning
 ========
 .. toctree::
