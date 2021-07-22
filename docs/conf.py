@@ -89,4 +89,4 @@ html_theme_path = ['theme',]
 #html_theme_path = guzzle_sphinx_theme.html_theme_path()
 
 # HTML Logo
-html_logo = "images/access-manager-logo.png"
+html_logo = "../images/access-manager-logo.png"
