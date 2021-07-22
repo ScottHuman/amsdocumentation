@@ -24,9 +24,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Access Manager'
-copyright = '2021, Scott Human'
-author = 'Scott Human'
+project = ''
+copyright = '2021, Lithnet'
+author = 'Lithnet Support'
 
 # The full version, including alpha/beta/rc tags
 release = ''
@@ -74,6 +74,7 @@ html_theme = 'furo'
 
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
+    "sidebar_hide_name": True,
     # Set the name of the project to appear in the sidebar
     #"project_nav_name": "AMS Documentation",
 }
@@ -86,3 +87,6 @@ html_theme_path = ['theme',]
 #html_theme_path = [furo.get_html_theme_path()]
 
 #html_theme_path = guzzle_sphinx_theme.html_theme_path()
+
+# HTML Logo
+html_logo = "images/access-manager-logo.png"
